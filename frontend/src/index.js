@@ -1,11 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles/index.css"; // Custom styles
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client'; // Use 'react-dom/client' for React 18
+import App from './App';
+import "./styles/index.css";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root')); // Create a root
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById("root") // Matches the div in index.html
+  </React.StrictMode>
 );

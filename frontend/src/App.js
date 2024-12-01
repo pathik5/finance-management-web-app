@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import DashboardPage from './pages/DashboardPage';
 import TransactionsPage from './pages/TransactionsPage';
+import AccountsPage from './pages/AccountsPage'; 
 import RecurringPage from './pages/RecurringPage';
-
-import './styles/global.css';
+import CashFlowPage from './pages/CashFlowPage';  
+import InvestmentsPage from './pages/InvestmentsPage';  
+import './styles/global.css'; 
 
 function App() {
   return (
